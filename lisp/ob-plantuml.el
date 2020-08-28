@@ -40,7 +40,7 @@
   '((:results . "file") (:exports . "results"))
   "Default arguments for evaluating a plantuml source block.")
 
-(defcustom org-plantuml-jar-path "/root/.emacs.d/elpa/plantuml.jar"
+(defcustom org-plantuml-jar-path "~/.emacs.d/elpa/plantuml.jar"
   "Path to the plantuml.jar file."
   :group 'org-babel
   :version "24.1"
